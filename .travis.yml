@@ -9,7 +9,6 @@ install:
 script:
   - cd Final
   - nbfancy configure -y all_magic 
-  - nbfancy rerun --allow_errors
   - nbfancy render
   - nbfancy html
 
